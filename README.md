@@ -24,10 +24,15 @@
 
 ```
 / (working directory)
-├─ main.cpp                     # (Your file from the snippet)
-├─ clients.txt                  # Data file (auto-created/saved)
-├─ policies.txt                 # Data file (auto-created/saved)
-└─ payments.txt                 # Data file (auto-created/saved)
+├─ .vscode/ # Editor tasks/settings (optional)
+├─ output/ # (Optional) output artifacts you generate
+├─ README.md # This file
+├─ clients.txt # Data file (pipe-delimited)
+├─ insurance.exe # Built binary (one of your Windows builds)
+├─ main.cpp # Source code (all-in-one)
+├─ main.exe # Built binary (another build output)
+├─ payments.txt # Data file (pipe-delimited)
+└─ policies.txt # Data file (pipe-delimited)
 ```
 
 > The application reads/writes the `.txt` files from the **current working directory**.
